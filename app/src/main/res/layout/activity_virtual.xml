@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birumuda"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="80dp"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/_"
+                android:orientation="vertical"
+                android:src="@drawable/virt" />
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/invite_friend"
+                android:textColor="#fff"
+                android:background="@drawable/bg_btnhijau"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/_"
+                android:orientation="vertical"
+                android:src="@drawable/chat" />
+
+        </LinearLayout>
+    </ScrollView>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:queryHint="@string/lets"
+        android:iconifiedByDefault="false"
+        android:searchIcon="@drawable/ic_keyboard_voice_black_24dp"
+        android:background="@drawable/bg_textbox"/>
+</LinearLayout>

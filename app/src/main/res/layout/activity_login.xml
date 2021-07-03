@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biruSplash"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:src="@drawable/icon_app"
+            android:contentDescription="@string/_" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:src="@drawable/title_app"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/_" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_login"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Account Login"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_textbox"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="Enter Email"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password :"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_textbox"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:hint="Enter Password"
+                />
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:background="@drawable/bg_btnlogin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Account or Reset Password"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

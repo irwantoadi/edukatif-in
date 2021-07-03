@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birumuda"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_textbox"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:src="@drawable/like"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@string/_" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/congratulations"
+                android:textSize="40sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selamat_fransisca_n_anda_telah_menyelesaikan_kuis_n_nilai_anda"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_85"
+                android:textSize="90sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/btn_oke"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/oke"
+                android:textColor="#fff"
+                android:background="@drawable/bg_btnlogin"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

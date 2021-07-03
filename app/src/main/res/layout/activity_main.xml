@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1AA6F5">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:src="@drawable/icon_app"
+        android:contentDescription="@string/_" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:src="@drawable/title_app"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/_" />
+    <Button
+        android:id="@+id/btn_learning"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/learning"
+        android:textColor="#fff"
+        android:background="@drawable/bg_btnmenu"/>
+    <Button
+        android:id="@+id/btn_ebook"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/e_book"
+        android:textColor="#fff"
+        android:background="@drawable/bg_btnmenu"/>
+    <Button
+        android:id="@+id/btn_bookstore"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/book_store"
+        android:textColor="#fff"
+        android:background="@drawable/bg_btnmenu"/>
+    <Button
+        android:id="@+id/btn_voucher"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/voucher"
+        android:textColor="#fff"
+        android:background="@drawable/bg_btnmenu"/>
+</LinearLayout>
+</RelativeLayout>

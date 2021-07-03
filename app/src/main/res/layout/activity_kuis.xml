@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/birumuda">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:src="@drawable/pertanyaan"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="@string/_" />
+        <!--        <ImageView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:src="@drawable/title_app"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:contentDescription="@string/_" />-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/jwb_a"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:background="@drawable/jwb_b"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:background="@drawable/jwb_c"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:background="@drawable/jwb_d"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_lanjut"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/bg_btnlogin"
+                android:text="Lanjut"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
